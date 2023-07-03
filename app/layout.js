@@ -12,9 +12,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <div class="navbar">
-    <a href="#home">Home</a>
+    <a href="#" class="home-link">Home</a>
     <div class="dropdown">
-      <button class="dropbtn">Other
+      <button class="dropbtn">     Other
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       </div>
     </div>
     <div class="dropdown">
-      <button class="dropbtn">About Me
+      <button class="dropbtn">    About Me
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
