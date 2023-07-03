@@ -12,15 +12,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <div class="navbar">
-    <a href="#" class="home-link">Home</a>
+    <a href="/" class="home-link">Home</a>
     <div class="dropdown">
       <button class="dropbtn">     Other
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="/dummy">dummy</a>
+        <a href="#">dummy2</a>
+        <a href="#">dummy3</a>
       </div>
     </div>
     <div class="dropdown">
@@ -29,8 +29,8 @@ export default function RootLayout({ children }) {
       </button>
       <div class="dropdown-content">
         <a href="#">Uma CL</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#">Uma Proj</a>
+        <a href="#">Socal</a>
       </div>
     </div>
     <div class="dropdown">
